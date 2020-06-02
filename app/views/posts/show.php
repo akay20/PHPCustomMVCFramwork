@@ -12,7 +12,7 @@ require APPROOT . '/views/inc/header.php'; ?>
 <hr>
 <a href="<?php echo URLROOT; ?>/posts/edit/<?php echo $data['post']->id; ?>" class="btn btn-dark">Edit</a>
 
-<form class="pull-right" action="<?php echo URLROOT; ?>/posts/delete<?php echo $data['posts']->id; ?>" method="post">
+<form class="pull-right" action="<?php echo URLROOT; ?>/posts/delete/<?php echo $data['post']->id; ?>" method="post">
 <input type="submit" value="Delete" class="btn btn-danger">
 </form>
 <?php endif; ?>

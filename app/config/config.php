@@ -2,7 +2,7 @@
 // DB Params
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', 'root123');
+define('DB_PASS', 'root@Dev2020');
 define('DB_NAME', 'shareposts');
 
 // App Root
